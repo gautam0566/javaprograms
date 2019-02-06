@@ -6,8 +6,8 @@ class Employee{
 	Employee()
 	{
 		sal=100000;
-		fname="Geetanjali";
-		lname="Sachdev";
+		fname="Gautam";
+		lname="Rao";
 	}
 	Employee(String fname,String lname,double sal)
 	{
