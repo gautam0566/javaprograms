@@ -5,7 +5,7 @@ class Employee{
     int yoj;
     double sal;
     Employee(){
-    	nm="Gagan";
+    	nm="Geetanjali";
     	add="Gurgaon";
     	sal=100000;
     	yoj=1/02/2018
