@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Debut{
+public static void main(String[] args)
+{
+ Scanner sc=new Scanner(System.in);
+ int a[]=new int[10];
+ System.out.println("enter the elements in array");
+ int i;
+ for(i=0;i<10;i++)
+ a[i]=sc.nextInt();
+ System.out.println("enter the element you want to search");
+ int b=sc.nextInt();
+ int j;
+ for (j=0;j<10;j++) 	
+ {
+ 	if(a[j]==b)
+ 		break;
+    else continue;
+ }
+ if(j==9)
+ 	System.out.println("-1");
+ else
+ 	System.out.println("element is present at index "+j);
+ }
+}
